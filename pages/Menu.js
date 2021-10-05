@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Navbar, Container, NavDropdown} from 'react-bootstrap'; 
 import styles from "../styles/Home.module.scss";
+import Download from './Download';
 import Home from './Home';
 import Services from './Services';
 
@@ -8,7 +9,7 @@ const Menu = (props) => {
     return (
         <div>
             <div className={styles.menu} >
-                <Navbar bg="none" expand="lg" fixed="top" className="p-3">      
+                <Navbar bg="light" expand="lg" fixed="top" className="p-3">      
                         <Navbar.Brand className={styles.navbar} href="#home">LOGO</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav" className={styles.menu_header}>

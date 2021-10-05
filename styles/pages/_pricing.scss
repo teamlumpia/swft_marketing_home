@@ -1,0 +1,17 @@
+.pricing {
+    margin-top: 20vh;
+    margin-bottom: 40vh;
+
+    &_title {
+        font-size: 4rem;
+        font-family: $main_font;
+        text-align: center;
+    }
+
+    &_description {
+        text-align: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-bottom: 8vh;
+    }
+}
