@@ -1,0 +1,79 @@
+.howitworks {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+
+    &_title {
+        font-family: $main_font;
+        font-size: 3rem;
+        color: darkgrey;
+        text-align: center;
+
+        &_2 {
+            font-family: $main_font;
+            font-size: 3rem;
+            color: black;
+            line-height: 1;
+            text-align: center;
+            padding-left: 25vw;
+            padding-right: 25vw;
+        }
+    }
+
+    &_container {
+        margin-top: 10vh;
+        margin-bottom: 20vh;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%; 
+        grid-template-areas: "col-1 col-2 col-3 col-4 "
+                             "col-5 col-6 col-7 col-8 ";
+
+        &_col {
+            padding: 20px;
+            text-align: center;
+        }
+    }
+
+    &_videoplaceholder {
+        border: 5px solid black;
+        width: 60vw;
+        height: 50vh;
+
+        &_description {
+            margin-top: 5vh;
+            text-align: center;
+            padding: 50px;
+            line-height: 3;
+        }
+    }
+}
+
+//FOR ORGANIZING COLUMNS
+.howitworks_container_col:nth-child(1) { grid-area: col-1; }
+.howitworks_container_col:nth-child(2) { grid-area: col-2; }
+.howitworks_container_col:nth-child(3) { grid-area: col-3; }
+.howitworks_container_col:nth-child(4) { grid-area: col-4; }
+.howitworks_container_col:nth-child(5) { grid-area: col-5; }
+.howitworks_container_col:nth-child(6) { grid-area: col-6; }
+.howitworks_container_col:nth-child(7) { grid-area: col-7; }
+.howitworks_container_col:nth-child(8) { grid-area: col-8; }
+
+@media ( max-width: 769px ) {
+    .howitworks_container {
+        grid-template-columns: 100%; 
+        grid-template-areas: " col-1 "
+                             " col-5 "
+                             " col-2 "
+                             " col-6 "
+                             " col-3 "
+                             " col-7 "
+                             " col-4 "
+                             " col-8 ";
+    }
+}
+
+//FOR FONT SIZING ISSUES
+@media ( max-width: 460px ) {
+    .howitworks_title_2 {
+        font-size: 10vw;
+    }
+}

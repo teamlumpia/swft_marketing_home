@@ -15,9 +15,9 @@ const Pricing = (props) => {
             </div>
             <Container>
                 <Row>
-                    <Col className="d-flex justify-content-center align-items-center">BASIC</Col>
-                    <Col className="d-flex justify-content-center align-items-center">PREMIUM</Col>
-                    <Col className="d-flex justify-content-center align-items-center">COMPANY</Col>
+                    <Col xs={12} s={4} md={4} className="d-flex justify-content-center align-items-center">BASIC</Col>
+                    <Col xs={12} s={4} md={4} className="d-flex justify-content-center align-items-center">PREMIUM</Col>
+                    <Col xs={12} s={4} md={4} className="d-flex justify-content-center align-items-center">COMPANY</Col>
                 </Row>
             </Container>
         </div>
