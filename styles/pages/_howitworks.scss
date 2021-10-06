@@ -4,13 +4,13 @@
 
     &_title {
         font-family: $main_font;
-        font-size: 3rem;
+        font-size: $title_size;
         color: darkgrey;
         text-align: center;
 
         &_2 {
             font-family: $main_font;
-            font-size: 3rem;
+            font-size: $title_size;
             color: black;
             line-height: 1;
             text-align: center;

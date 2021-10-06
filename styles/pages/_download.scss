@@ -3,7 +3,7 @@
     margin-bottom: 40vh;
 
     &_title {
-        font-size: 4rem;
+        font-size: $title_size;
         font-family: $main_font;
         padding: 2vw;
         justify-content: center;
@@ -14,7 +14,7 @@
     &_description {
         justify-content: center;
         text-align: center;
-        margin-bottom: 4rem;
+        margin-bottom: 4vh;
     }
 
     &_button {

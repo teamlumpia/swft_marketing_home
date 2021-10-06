@@ -1,0 +1,128 @@
+.about {
+    margin-top: 40vh;
+    margin-bottom: 40vh;
+
+    &_title {
+        font-size: $title_size;
+        font-family: $main_font;
+        text-align: center;
+    }
+
+    &_description {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        text-align: center;
+        line-height: 3;
+    }
+
+    &_container {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4vw;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+
+        &_title {
+            font-size: 3rem;
+            font-family: $main_font;
+        }
+    }
+
+    &_ourwork {
+        &_title {
+            font-size: $title_size;
+            font-family: $main_font;
+            margin-bottom: 3vh;
+            margin-top: 3vh;
+        }
+        &_description {
+            line-height: 3;
+        }
+
+        &_title2 {
+            font-size: $title_size;
+            font-family: $main_font;
+            margin-bottom: 3vh;
+            margin-top: 8vh;
+        }
+
+        &_col {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 5vw;
+            &_photo {
+                border: 1px solid black;
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                margin: 0 auto;
+            }
+
+            &_name {
+                font-family: $main_font;
+                font-size: 2rem;
+            }
+
+            &_description {
+                color: grey;
+                text-align: center;
+                padding-left: 10vw;
+                padding-right: 10vw;
+                line-height: 3;
+            }
+
+            &_button {
+                margin-top: 8vh;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: $main_font;
+            }
+
+            &_line {
+                width: 30vw;
+                height: 10vh;
+                border-bottom: 3px solid black;
+                margin: 0 auto;
+                margin-bottom: 10vh;
+            }
+        }
+    }
+}
+
+.about_container_col:nth-child(1) { 
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.about_container_col:nth-child(2) { 
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.about_container_col:nth-child(3) { 
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+.about_container_col:nth-child(4) { 
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+}
+
+@media (max-width: 751px) {
+    .about_container_col:nth-child(1) { 
+        border: none;
+        border-bottom: 1px solid white;
+    }
+    .about_container_col:nth-child(2) { 
+        border: none;
+        border-bottom: 1px solid white;
+    }
+    .about_container_col:nth-child(3) { 
+        border: none;
+        border-bottom: 1px solid white;
+    }
+    .about_container_col:nth-child(4) { 
+        border: none;
+    }
+}

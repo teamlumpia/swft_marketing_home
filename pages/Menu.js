@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.scss";
 import Download from './Download';
 import Home from './Home';
 import Services from './Services';
+import About from './Aboutus';
 
 const Menu = (props) => {
     return (
@@ -25,6 +26,7 @@ const Menu = (props) => {
             </div>
             <div id="home"><Home /></div>
             <div id="services"><Services /></div>
+            <div id="about"><About /></div>
         </div>
     );
 }
