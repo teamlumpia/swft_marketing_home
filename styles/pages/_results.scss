@@ -4,6 +4,43 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 80vh;
-    width: 110%;
+    height: 100%;
+    width: 100%;
+
+    &_title {
+        font-size: $title_size;
+        font-family: $main_font;
+        text-align: center;
+        color: white;
+    }
+
+    &_description {
+        color: white;
+        font-size: 1rem;
+
+        &_container {
+            padding: 3vw;
+        }
+
+        &_testimonial {
+            font-style: italic;
+            font-size: 1.2rem;
+            line-height: 2;
+
+            &_author {
+                font-family: $main_font;
+                font-size: 2rem;
+                text-align: right;
+            }
+        }
+    }
+
+    &_button {
+        padding: 8vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: $main_font;
+    }
+
 }

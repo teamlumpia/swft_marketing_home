@@ -5,6 +5,7 @@ import Download from './Download';
 import Home from './Home';
 import Services from './Services';
 import About from './Aboutus';
+import Contact from './Contact';
 
 const Menu = (props) => {
     return (
@@ -27,6 +28,7 @@ const Menu = (props) => {
             <div id="home"><Home /></div>
             <div id="services"><Services /></div>
             <div id="about"><About /></div>
+            <div id="contact"><Contact/></div>
         </div>
     );
 }

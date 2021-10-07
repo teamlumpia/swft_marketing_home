@@ -24,9 +24,10 @@ const Aboutus = (props) => {
                 </p>
             </div>
 
-            <Row className={styles.about_container}>
+        <div className={styles.about_container}>
+            <Row className="row g-0">
                 <Col xs={12} s={6} md={6} className={styles.about_container_col}>
-                    <Container className="py-4">
+                    <Container className="py-4 px-4">
                     <div className={styles.about_container_title}>
                         Our Mission
                     </div>
@@ -38,7 +39,7 @@ const Aboutus = (props) => {
                     </Container>
                 </Col>
                 <Col xs={12} s={6} md={6} className={styles.about_container_col}>
-                <Container className="py-4">
+                <Container className="py-4 px-4">
                     <div className={styles.about_container_title}>
                         OUR ESSENCE
                     </div>
@@ -50,7 +51,7 @@ const Aboutus = (props) => {
                     </Container>
                 </Col>
                 <Col xs={12} s={6} md={6} className={styles.about_container_col}>
-                    <Container className="py-4">
+                    <Container className="py-4 px-4">
                     <div className={styles.about_container_title}>
                         OUR PROMISE
                     </div>
@@ -62,7 +63,7 @@ const Aboutus = (props) => {
                     </Container>
                 </Col>
                 <Col xs={12} s={6} md={6} className={styles.about_container_col}>
-                    <Container className="py-4">
+                    <Container className="py-4 px-4">
                     <div className={styles.about_container_title}>
                         OUR VIBE
                     </div>
@@ -74,6 +75,7 @@ const Aboutus = (props) => {
                     </Container>
                 </Col>
             </Row>
+            </div>
 
             <Container>
                 <div className={styles.about_ourwork_title}>
