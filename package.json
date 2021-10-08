@@ -6,7 +6,8 @@
     "dev": "nodemon server/server.js server/server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server/server.js",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "bootstrap": "^5.1.1",
