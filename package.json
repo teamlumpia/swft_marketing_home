@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "NODE_ENV=production node server/server.js",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "preexport": "npm run build",
+    "prestatic-start": "npm run export",
+    "static-start": "serve out"
   },
   "dependencies": {
     "bootstrap": "^5.1.1",
@@ -18,7 +21,8 @@
     "react-bootstrap": "^1.6.4",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.3.0",
-    "sass": "^1.42.1"
+    "sass": "^1.42.1",
+    "serve": "^12.0.1"
   },
   "devDependencies": {
     "eslint": "7.32.0",

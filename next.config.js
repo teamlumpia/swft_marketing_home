@@ -2,9 +2,6 @@ const path = require('path')
 
 module.exports = {
   reactStrictMode: true,
-  images: { 
-    domains: ['i.ibb.co'],
-  },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
@@ -14,8 +11,8 @@ module.exports = {
   ) {
     return {
       "/": { page: "/" },
-      "/menu": { page: "/menu" },
-      "/about": { page: "/about" }
+      "/menu": { page: "/Menu" },
+      "/about": { page: "/Aboutus" }
     };
   }
 }
