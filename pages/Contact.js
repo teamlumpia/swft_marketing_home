@@ -50,7 +50,7 @@ const Contact = (props) => {
 
                                 <div className={styles.contact_sendmsg_input}>
                                     <div className="mb-0">
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message..."></textarea>
+                                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message..."></textarea>
                                     </div>
                                 </div>
 

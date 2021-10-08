@@ -15,7 +15,7 @@ const Howitworks = (props) => {
                         After login, see your list of jobs
                 </Col>
                 <Col className={styles.howitworks_container_col}>
-                    See the number of candidates or companies that you've added
+                    See the number of candidates or companies that you&apos;ve added
 
                 </Col>
                 <Col className={styles.howitworks_container_col}>

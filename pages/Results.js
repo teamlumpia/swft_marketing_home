@@ -13,9 +13,9 @@ const Results = (props) => {
                 <div className={styles.results_description_container}>
                     <div className={styles.results_description_testimonial}>
                         <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nunc maximus, nulla ut commodo sagittis, sapien dui mattis 
-                        dui, non pulvinar lorem felis nec erat" 
+                        dui, non pulvinar lorem felis nec erat&quot; 
                         </p>
                     </div>
                     <div className={styles.results_description_testimonial_author}>
@@ -25,13 +25,13 @@ const Results = (props) => {
 
                 <div className={styles.results_description_container}>
                     <div className={styles.results_description_testimonial}>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        <p>&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nunc maximus, nulla ut commodo sagittis, sapien dui mattis 
                         dui, non pulvinar lorem felis nec erat.</p>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                         maximus, nulla ut commodo sagittis, sapien dui mattis dui, non
-                        pulvinar lorem felis nec erat"</p>
+                        pulvinar lorem felis nec erat&quot;</p>
                     </div>
                     <div className={styles.results_description_testimonial_author}>
                         - Angela A. RECRUITER

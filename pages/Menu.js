@@ -6,6 +6,7 @@ import Home from './Home';
 import Services from './Services';
 import About from './Aboutus';
 import Contact from './Contact';
+import Footer from './Footer';
 
 const Menu = (props) => {
     return (
@@ -29,6 +30,7 @@ const Menu = (props) => {
             <div id="services"><Services /></div>
             <div id="about"><About /></div>
             <div id="contact"><Contact/></div>
+            <div id="footer"><Footer /></div>
         </div>
     );
 }
