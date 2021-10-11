@@ -8,6 +8,7 @@ import Home from './Home';
 import About from './Aboutus';
 import Contact from './Contact';
 import Footer from './Footer';
+import Login from './Login';
 
 const Menu = (props) => {
     return (
@@ -27,6 +28,7 @@ const Menu = (props) => {
                         </Navbar.Collapse>
                 </Navbar>
             </div>
+            <div id="login"><Login /></div>
             <div id="home"><Home /></div>
             <div id="services"><Download /></div>
             <div id="howitworks"><Howitworks /></div>
