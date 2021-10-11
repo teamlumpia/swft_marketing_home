@@ -1,6 +1,5 @@
 .about {
     margin-top: 20vh;
-    margin-bottom: 10vh;
     padding-top: 130px;
 
     &_title {
@@ -125,5 +124,19 @@
     }
     .about_container_col:nth-child(4) { 
         border: none;
+    }
+}
+
+//FOR FONT SIZING ISSUES
+@media ( max-width: 460px ) {
+    .about_title {
+        font-size: 18vw;
+    }
+    .about_container_title {
+        font-size: 10vw;
+    }
+
+    .about_ourwork_title, .about_ourwork_title2 {
+        font-size: 13vw;
     }
 }

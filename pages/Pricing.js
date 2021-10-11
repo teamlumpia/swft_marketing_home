@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "../styles/Home.module.scss";
 import {Button, Row, Col, Media, Container} from 'react-bootstrap';
+import Prices from './price_boxes';
 
 const Pricing = (props) => {
     return (
@@ -15,7 +16,9 @@ const Pricing = (props) => {
             </div>
             <Container>
                 <Row>
-                    <Col xs={12} s={4} md={4} className="d-flex justify-content-center align-items-center">BASIC</Col>
+                    <Col xs={12} s={4} md={4} className="d-flex justify-content-center align-items-center">
+                        <Prices package={"Basic"}/>
+                    </Col>
                     <Col xs={12} s={4} md={4} className="d-flex justify-content-center align-items-center">PREMIUM</Col>
                     <Col xs={12} s={4} md={4} className="d-flex justify-content-center align-items-center">COMPANY</Col>
                 </Row>

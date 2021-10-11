@@ -11,3 +11,10 @@
         line-height: 1;
     }
 }
+
+//FOR FONT SIZING ISSUES
+@media ( max-width: 460px ) {
+    .home_title {
+        font-size: 15vw;
+    }
+}

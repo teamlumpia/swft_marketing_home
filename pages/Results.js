@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "../styles/Home.module.scss";
-import {Button, Row, Col, Media, Container} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
+import Link from 'next/link';
 
 const Results = (props) => {
     return (
@@ -41,7 +42,9 @@ const Results = (props) => {
 
             <div className={styles.results_button}>
                 <Button className="btn btn-dark btn-lg">
-                    How it works
+                    <Link href="/#howitworks">
+                        How it works
+                    </Link>
                 </Button>
             </div>
         </div>

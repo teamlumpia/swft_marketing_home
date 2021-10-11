@@ -16,3 +16,10 @@
         margin-bottom: 8vh;
     }
 }
+
+//FOR FONT SIZING ISSUES
+@media ( max-width: 460px ) {
+    .pricing_title {
+        font-size: 13vw;
+    }
+}

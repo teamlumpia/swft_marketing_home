@@ -2,8 +2,9 @@ import React from 'react';
 import { Nav, Navbar, Container, NavDropdown} from 'react-bootstrap'; 
 import styles from "../styles/Home.module.scss";
 import Download from './Download';
+import Howitworks from './Howitworks';
+import Pricing from './Pricing';
 import Home from './Home';
-import Services from './Services';
 import About from './Aboutus';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -27,7 +28,9 @@ const Menu = (props) => {
                 </Navbar>
             </div>
             <div id="home"><Home /></div>
-            <div id="services"><Services /></div>
+            <div id="services"><Download /></div>
+            <div id="howitworks"><Howitworks /></div>
+            <div id="pricing"><Pricing /></div>
             <div id="about"><About /></div>
             <div id="contact"><Contact/></div>
             <div id="footer"><Footer /></div>
