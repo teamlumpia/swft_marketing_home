@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "../styles/Home.module.scss";
 import {Button, Row, Col, Form, Container} from 'react-bootstrap';
+import {BsGoogle, BsLinkedin, BsFacebook} from 'react-icons/bs';
 
 const Login = (props) => {
     return (
@@ -14,12 +15,27 @@ const Login = (props) => {
                         <div className={styles.login_maintitle}>
                             Login
                         </div>
-                        <p>Start searching today!</p>
-                        <Button>Sign in with Google</Button>
-                        <Button>Sign in with LinkedIn</Button>
-                        <Button>Sign in with Facebook</Button>
+                        <p className={styles.login_maintitle_description}>Start searching today!</p>
+                        <div className={styles.login_button}>
+                            <Button className="btn btn-dark btn-lg">
+                            <BsGoogle className={styles.login_icons} />
+                                Sign in with Google
+                            </Button>
+                        </div>
+                        <div className={styles.login_button}>
+                            <Button className="btn btn-dark btn-lg">
+                            <BsLinkedin className={styles.login_icons} />
+                                Sign in with LinkedIn
+                            </Button>
+                        </div>
+                        <div className={styles.login_button}>
+                            <Button className="btn btn-dark btn-lg">
+                            <BsFacebook className={styles.login_icons} />
+                                Sign in with Facebook
+                            </Button>
+                        </div>
                         <div className={styles.login_line}>
-                            <div className={styles.login_line_text}>or Sign in with Email</div>
+                            or Sign in with Email
                         </div>
 
                     <Form>
@@ -35,7 +51,7 @@ const Login = (props) => {
                             <Form.Control type="password" placeholder="Enter password" />
                         </Form.Group>
                         <Row>
-                            <Col>
+                            <Col className={styles.login_leftalign}>
                             <div className="form-check">
                             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                             <label className="form-check-label" for="flexCheckDefault">
@@ -43,12 +59,12 @@ const Login = (props) => {
                             </label>
                             </div>
                             </Col>
-                            <Col>
+                            <Col className={styles.login_rightalign}>
                             Forget password?
                             </Col>
                         </Row>
 
-                        <div className={styles.contact_sendmsg_button}>
+                        <div className={styles.login_button_submit}>
                             <Button className="btn btn-dark btn-lg">
                                 Login
                             </Button>

@@ -5,21 +5,49 @@
     padding-top: 30vh;
 
     &_maintitle {
-        font-size: 5rem;
+        font-size: 4rem;
         font-family: $main_font;
         line-height: 1;
+        text-align: center;
+        &_description {
+            text-align: center;
+            color: grey;
+        }
     }
     &_line {
-
-        &_text {
-            font-size: 30px;
-            color: #e27256;
-            padding-bottom: 20px;
-        }
+        margin-top: 5vh;
+        margin-bottom: 2vh;
     }
     &_formlabel {
         font-family: $main_font;
         font-size: 2rem;
+    }
+
+    &_button {
+        margin-top: 1vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: $main_font;
+        &_submit {
+            margin-top: 3vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: $main_font;
+        }
+    }
+
+    &_icons{
+        margin-right: 5px;
+    }
+
+    &_leftalign {
+        text-align: left;
+    }
+
+    &_rightalign {
+        text-align: right;
     }
 }
 
