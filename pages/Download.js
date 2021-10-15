@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "../styles/Home.module.scss";
-import {Button, Row, Col, Media, Container} from 'react-bootstrap';
+import {Button, Row, Col, Image, Container} from 'react-bootstrap';
 
 const Download = (props) => {
     return (
@@ -23,7 +23,7 @@ const Download = (props) => {
                         </Container>
                     </Col>
                     <Col xs={12} s={4} md={4} className="d-flex justify-content-center align-items-center">
-                        PHONE PHOTO
+                        <Image src="https://i.ibb.co/QpTrvJz/mobile-invision.png" className={styles.download_photo} />
                     </Col>
                 </Row>
             </Container>
