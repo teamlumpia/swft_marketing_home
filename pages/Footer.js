@@ -24,7 +24,7 @@ const Footer = (props) => {
                                 Keep Connected
                             </div>
                             <div className={styles.footer_overlap_description}>
-                                Follow us and see what we're up to:
+                                Follow us and see what we&apos;re up to:
                                 <ul>
                                     <li>ICON MEDIA</li>
                                     <li>ICON MEDIA</li>
@@ -39,7 +39,7 @@ const Footer = (props) => {
                             </div>
                             <div className={styles.footer_overlap_description}>
                                 This is an incomplete product at that moment see our 
-                                latest updates and what we're working on
+                                latest updates and what we&apos;re working on
                                 <ul>
                                     <li>MOBILE UPDATE</li>
                                     <li>ICON MEDIA</li>

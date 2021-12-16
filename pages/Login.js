@@ -54,7 +54,7 @@ const Login = (props) => {
                             <Col className={styles.login_leftalign}>
                             <div className="form-check">
                             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                            <label className="form-check-label" for="flexCheckDefault">
+                            <label className="form-check-label" htmlFor="flexCheckDefault">
                                 Remember me
                             </label>
                             </div>
