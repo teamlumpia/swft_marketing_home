@@ -14,3 +14,10 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run export
+      - uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.S3_ACCESS }}
+          aws-secret-access-key: ${{ secrets.S3_SECRET }}
+          aws-region: us-west-2
+      - run: aws s3 sync ./out s3://swft-marketing-site
+
